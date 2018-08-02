@@ -77,10 +77,3 @@ cor(t$Fertility,fitted(model2))^2
 nd2 <- data.frame(Agriculture=0.5, Catholic=0.5,
                   Education=20)
 predict(model2,nd2)
-
-
-
-
-
-
-
